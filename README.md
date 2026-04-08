@@ -1,2 +1,2 @@
-# Static HTML Boilerplate
-Basic HTML, CSS, and JavaScript setup for a simple website.
+# Challenge #7: Bootstrap
+Bootstrap is a CSS framework that makes creating basic designs with know patterns faster and easier. By assembling individual components on your page, you can create modular, responsive designs with very little CSS overhead. Reproduce the design below (a portion of a Dribbble page) using HTML and Bootstrap CSS. Commit and publish your site to Netlify and upload the public Netlify and GitHub URLs to the C7: Dropbox.
