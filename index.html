@@ -6,26 +6,108 @@
     <title>Dribble Mockup - Bootstrap</title>
     <link rel="stylesheet" href="screen.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
   </head>
   <body>
-    <div class="dropdown">
-      <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Popular</button>
+    <div class="container-fluid row g-5 d-flex justify-content-center my-3">
+      <div class="col-2">
+        <select class="form-select" aria-label="Popular">
+          <option selected>Popular</option>
+          <option value="1">New & Noteworthy</option>
+        </select>
+      </div>
+      <nav class="btn-group col-6" role="group" aria-label="Vertical button group">
+        <button type="button" class="btn active rounded-pill" data-bs-toggle="button" aria-pressed="true">Discover</button>
+        <button type="button" class="btn rounded-pill" data-bs-toggle="button" aria-pressed="true">Animation</button>
+        <button type="button" class="btn rounded-pill" data-bs-toggle="button" aria-pressed="true">Branding</button>
+        <button type="button" class="btn rounded-pill" data-bs-toggle="button" aria-pressed="true">Illustration</button>
+        <button type="button" class="btn rounded-pill" data-bs-toggle="button" aria-pressed="true">Mobile</button>
+        <button type="button" class="btn rounded-pill" data-bs-toggle="button" aria-pressed="true">Print</button>
+        <button type="button" class="btn rounded-pill" data-bs-toggle="button" aria-pressed="true">Product Design</button>
+        <button type="button" class="btn rounded-pill" data-bs-toggle="button" aria-pressed="true">Typography</button>
+        <button type="button" class="btn rounded-pill" data-bs-toggle="button" aria-pressed="true">Web Design</button>
+      </nav>
+      <button class="btn rounded-pill border col-1"><i class="bi bi-filter fw-bold"></i>Filters</button>
     </div>
-    
-    <nav>
-      <ul>
-        <li><a href="index.html" class="active">Discover</a></li>
-        <li><a href="index.html">Animation</a></li>
-        <li><a href="index.html">Branding</a></li>
-        <li><a href="index.html">Illustration</a></li>
-        <li><a href="index.html">Mobile</a></li>
-        <li><a href="index.html">Print</a></li>
-        <li><a href="index.html">Product Design</a></li>
-        <li><a href="index.html">Typography</a></li>
-        <li><a href="index.html">Web Design</a></li>
-      </ul>
-    </nav>
-    <button></button>
+
+    <main class="container-fluid row d-flex justify-content-center min-vw-85">
+      <div class="card col-xl-3 col-lg-3 col-md-5 col-sm-10 col-xs-10 border-0 m-3 p-0">
+        <img src="sampleCardImage.png" alt="" class="card-image rounded">
+        <div class="card-body align-items-start h-auto container row g-0 my-0">
+          <img src="logo.png" alt="" class="img-circle col-1">
+          <p class="card-text col-7 fw-bold text-start mx-0 px-2">Username 1</p>
+          <small class="card-text text-body-secondary col-2">
+            <i class="bi bi-heart-fill mx-1">   
+          </i>123</small>
+          <small class="card-text text-body-secondary col-2">
+            <i class="bi bi-eye-fill mx-1">
+            </i>3.4m</small>
+        </div>
+      </div>
+      <div class="card col-xl-3 col-lg-3 col-md-5 col-sm-10 col-xs-10 border-0 m-3 p-0">
+        <img src="sampleCardImage2.png" alt="" class="card-image rounded">
+        <div class="card-body align-items-start h-auto container row g-0 my-0">
+          <img src="logo2.png" alt="" class="img-circle col-1">
+          <p class="card-text col-7 fw-bold text-start mx-0 px-1"> Username 2</p>
+          <small class="card-text text-body-secondary col-2">
+            <i class="bi bi-heart-fill mx-1">   
+          </i>123</small>
+          <small class="card-text text-body-secondary col-2">
+            <i class="bi bi-eye-fill mx-1">
+            </i>3.4m</small>
+        </div>
+      </div><div class="card col-xl-3 col-lg-3 col-md-5 col-sm-10 col-xs-10 border-0 m-3 p-0">
+        <img src="sampleCardImage.png" alt="" class="card-image rounded">
+        <div class="card-body align-items-start h-auto container row g-0 my-0">
+          <img src="logo.png" alt="" class="img-circle col-1">
+          <p class="card-text col-7 fw-bold text-start mx-0 px-1"> Username 1</p>
+          <small class="card-text text-body-secondary col-2">
+            <i class="bi bi-heart-fill mx-1">   
+          </i>123</small>
+          <small class="card-text text-body-secondary col-2">
+            <i class="bi bi-eye-fill mx-1">
+            </i>3.4m</small>
+        </div>
+      </div><div class="card col-xl-3 col-lg-3 col-md-5 col-sm-10 col-xs-10 border-0 m-3 p-0">
+        <img src="sampleCardImage2.png" alt="" class="card-image rounded">
+        <div class="card-body align-items-start h-auto container row g-0 my-0">
+          <img src="logo2.png" alt="" class="img-circle col-1">
+          <p class="card-text col-7 fw-bold text-start mx-0 px-1"> Username 2</p>
+          <small class="card-text text-body-secondary col-2">
+            <i class="bi bi-heart-fill mx-1">   
+          </i>123</small>
+          <small class="card-text text-body-secondary col-2">
+            <i class="bi bi-eye-fill mx-1">
+            </i>3.4m</small>
+        </div>
+      </div><div class="card col-xl-3 col-lg-3 col-md-5 col-sm-10 col-xs-10 border-0 m-3 p-0">
+        <img src="sampleCardImage.png" alt="" class="card-image rounded">
+        <div class="card-body align-items-start h-auto container row g-0 my-0">
+          <img src="logo.png" alt="" class="img-circle col-1">
+          <p class="card-text col-7 fw-bold text-start mx-0 px-1"> Username 1</p>
+          <small class="card-text text-body-secondary col-2">
+            <i class="bi bi-heart-fill mx-1">   
+          </i>123</small>
+          <small class="card-text text-body-secondary col-2">
+            <i class="bi bi-eye-fill mx-1">
+            </i>3.4m</small>
+        </div>
+      </div><div class="card col-xl-3 col-lg-3 col-md-5 col-sm-10 col-xs-10 border-0 m-3 p-0">
+        <img src="sampleCardImage2.png" alt="" class="card-image rounded">
+        <div class="card-body align-items-start h-auto container row g-0 my-0">
+          <img src="logo2.png" alt="" class="img-circle col-1">
+          <p class="card-text col-7 fw-bold text-start mx-0 px-1"> Username 2</p>
+          <small class="card-text text-body-secondary col-2">
+            <i class="bi bi-heart-fill mx-1">   
+          </i>123</small>
+          <small class="card-text text-body-secondary col-2">
+            <i class="bi bi-eye-fill mx-1">
+            </i>3.4m</small>
+        </div>
+      </div>
+    </main>
+
+
     <script src="index.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
   </body>
